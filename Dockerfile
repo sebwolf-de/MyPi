@@ -6,7 +6,7 @@ RUN apt-get update \
     cmake \
     g++ \
     gcc \
-    libopenmpi-dev \
+    libmpich-dev \
     && mkdir -p /usr/mypi
 
 
